@@ -66,7 +66,7 @@ static void print_usage()
     printf("\n");
 }
 
-static struct args *parse_args(int *argc, char ** argv[])
+static struct args *parse_args(int *argc, char **argv[])
 {
 #define ARGS_EXHAUSTED -1
     static struct args args = {
